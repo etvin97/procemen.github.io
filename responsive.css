@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .item {
+      width: 50%;
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .item {
+        width: 100%;
+    }
